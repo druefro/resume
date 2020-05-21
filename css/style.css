@@ -1,0 +1,351 @@
+h1 {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.no_mobile{
+	display: none;
+}
+
+.mobile{
+	display: flex;
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+
+}
+
+.foot-img{
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+}
+
+#about img:first-child{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+
+}
+
+.profile{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+	border-radius: 50%;
+	padding-left: 20px;
+
+}
+
+#about-body p {
+	font-family: 'Gruppo', cursive;
+	font-size: 1.25em;
+	padding: 20px;
+	text-align: center;
+}
+
+#contact {
+	background-color: black;
+}
+
+.skip{
+	display: none;
+}
+
+nav{
+  font-family: 'Gruppo', cursive;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #757575;
+
+}
+
+.active{
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover{
+	color: black;
+}
+
+fieldset{
+	font-family: 'Gruppo', cursive;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.contact_head{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.contact_text{
+	font-family: 'Gruppo', cursive;
+	font-size: 1.25em;
+	padding: 20px;
+	text-align: center;
+}
+
+#name {
+	border-radius: 10px;
+	width: 40%;
+	height: 50px;
+	font-family: 'Gruppo', cursive;
+	font-size: 1em;
+	text-align: center;
+}
+
+#email {
+	border-radius: 10px;
+	width: 40%;
+	height: 50px;
+	font-family: 'Gruppo', cursive;
+	font-size: 1em;
+	text-align: center;
+}
+
+#message {
+	border-radius: 10px;
+	width: 40%;
+	height: 100px;
+	font-family: 'Gruppo', cursive;
+	font-size: 1em;
+	text-align: center;
+}
+
+#submit{
+	border-radius: 10px;
+	width: 40%;
+	background-color: black;
+	color: white;
+	font-family: 'Gruppo', cursive;
+	font-size: 1em;
+}
+
+.projects_head{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.events_head{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.img-contact img{
+  width: 75px;
+  height: 75px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25%;
+}
+
+.showcase_photos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.showcase_tall{
+	width: 22%;
+	padding: 5px;
+
+}
+
+.showcase_wide{
+	width: 45%;
+	padding: 5px;
+}
+
+.project-text{
+	font-family: 'Gruppo', cursive;
+	font-size: 1.25em;
+	padding: 20px;
+	text-align: center;
+}
+
+.project-h2 {
+	font-family: 'Gruppo', cursive;
+	font-size: 2em;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.events-h2 {
+	font-family: 'Gruppo', cursive;
+	font-size: 3em;
+	padding-bottom: 250px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*START TABLET VIEW*/
+@media screen and (min-width: 480px){
+
+nav{
+	flex-direction: row;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#about-body p{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.project-text{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.mobile{
+	display: none;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fade-in {
+animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #drue {
+    animation: none;
+  }
+
+  #froeschke{
+  	animation: none;
+  }
+
+  #leader{
+  	animation: none;
+  }
+
+}
+
+.no_mobile{
+	display: unset;
+}
+
+#drue{
+	animation-name: bounceIn;
+  	animation-duration: 2s;
+  	animation-fill-mode: forwards;
+  	animation-iteration-count: 1;
+}
+
+#froeschke{
+	animation-name: bounceIn;
+  	animation-duration: 2s;
+  	animation-fill-mode: forwards;
+  	animation-iteration-count: 1;
+}
+
+#leader{
+	animation-name: fadeIn;
+  	animation-duration: 6s;
+  	animation-fill-mode: forwards;
+  	animation-iteration-count: 1;
+}
+
+
+.skip a:focus{
+  position: absolute;
+  margin: 0;
+}
+
+.skip a{
+	display: fixed;
+  color: black;
+  text-decoration: None;
+  font-family: 'Gruppo', cursive;
+  margin-left: 0;
+  padding: 2px;
+  position: absolute;
+  margin: -40px;
+  overflow: hidden;
+}
+
+}
+
+/*START DESKTOP VIEW*/
+@media screen and (min-width: 800px){
+
+#about-body p{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+}
